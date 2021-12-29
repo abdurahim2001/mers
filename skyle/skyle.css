@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 15);
+}
+.menu{
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.menu{
+    background-image: url('../img/sedan-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 110rem;
+}
+.menu h1{
+    color: rgb(243, 237, 237);
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+.menu_1{
+    display: flex;
+    gap: 5rem;
+    align-items: center;  
+    justify-content: center;
+    justify-content: space-around;
+}
+.menu_1 li{
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.menu_1 a {
+    text-decoration: none;
+    background-color: rgb(126, 91, 17);
+    color: rgb(236, 234, 234);
+    border-radius: 15px ;
+    font-size: 2rem;
+   
+}
+.menu_1 :hover{
+    color: rgb(15, 15, 15);
+    box-shadow: rgb(22, 52, 56);
+    border-bottom-left-radius: 10px;
+}
+.menu_1 img{
+    width: 10rem;
+    justify-content: flex-start;
+}
+.mers{
+    padding-right: 10rem;
+
+}
+     /* 1 */
+.mercedes{
+    display: flex;
+    justify-content: center;
+}
+.mercedes h1{
+    color: cornsilk;
+}
+.mercedes img{
+    width: 25rem;
+}
+.mercedes p {
+    color: cornsilk;
+}
+
+     /* 2 */
+.mercedes_2{
+    display: flex;
+    justify-content: center;
+}
+.mercedes_2 h1{
+    color: cornsilk;
+}
+.mercedes_2 img{
+    width: 25rem;
+}
+.mercedes_2 p {
+    color: cornsilk;
+}
+    /* 3 */
+.mercedes_3{
+    display: flex;
+    justify-content: center;
+}
+.mercedes_3 h1{
+    color: cornsilk;
+}
+.mercedes_3 img{
+    width: 25rem;
+}
+.mercedes_3 p {
+    color: cornsilk;
+}
+/* div1 */
+.div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    
+}
+.div h1{
+    color: rgb(94, 86, 86);
+}
+
+button{
+    padding: 15px;
+}
+button:hover{
+    padding: 20px;
+    background-color: rgb(170, 114, 10);
+    box-shadow: rgb(22, 52, 56);
+    border-right:2  5px ;
+
+
+}
+.div p{
+    color: rgb(94, 86, 86);
+}
+/* div2 */
+.div_2{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 9rem;
+    padding-right: 9rem;
+
+}
+.div_2 h1{
+    color: rgb(94, 86, 86);
+}
+/* div3 */
+
+.div_3{
+    color: rgb(94, 86, 86);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
